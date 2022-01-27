@@ -2,13 +2,13 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle `
     :root {
-        --background: #f0f2f5
-        --red: #e52e4d
-        --blue: #5429cc
-        --blue:ligth: #6933ff;
-        --text-title: #363f5f
-        --text-body: #969cb3
-        --shape: #ffffff
+        --blue: #5429cc;
+        --background: #f0f2f5;
+        --red: #e52e4d;
+        --blue-ligth: #6933ff;
+        --text-title: #363f5f;
+        --text-body: #969cb3;
+        --shape: #ffffff;
     }    
 
     * {
@@ -23,13 +23,13 @@ export const GlobalStyle = createGlobalStyle `
         }
 
         @media (max-width: 720px) {
-            font-size: 87.5%
+            font-size: 87.5%;
         }
     }
 
     body {
         background: var(--background);
-        --webkit-font-smoothing: antialiased
+        --webkit-font-smoothing: antialiased;
     }
 
     body, input, textarea, button {
@@ -38,7 +38,7 @@ export const GlobalStyle = createGlobalStyle `
     }
 
     h1, h2, h3, h4, strong {
-        font-weight: 600
+        font-weight: 600;
     }
 
     button {
