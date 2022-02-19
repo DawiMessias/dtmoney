@@ -4,7 +4,7 @@ import { GlobalStyle } from "../src/styles/global";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
 import { NewTransactionModal } from "./components/NewTransactionModal ";
-import { TransactionsProvider } from "./TransactionsContext";
+import { TransactionsProvider } from "../src/hooks/UseTransactions";
 
 Modal.setAppElement("#root")
 export function App() {
